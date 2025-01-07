@@ -1,0 +1,117 @@
+*{
+    height: 100%;
+    width: 100%;
+    font-family:'Times New Roman', Times, serif;
+    margin: 0%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+   
+}
+#strip{
+    height: 1.3%;
+    width: 100%;
+    background-color:rgb(233, 152, 94);
+}
+#navbar{
+    height: 20%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+#logo{
+    height: 100%;
+    width: 16%;
+    background-image: url(https://www.haldiram.com/Haldiram_Logo-9GN.png);
+    background-size: cover;
+}
+.text{
+    height:50%;
+    width: 10%;
+    text-align: center;
+    margin: 3%;
+    margin-left: 1%;
+    
+}
+#flow{
+    height: 6%;
+   background-color: bisque;
+}
+marquee{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(212, 35, 35);
+   color: white;
+   font-size:large;
+   font-style:initial;
+}
+#page1{
+    height: 73%;
+    width: 100%;
+    background-image: url(https://www.haldiram.com/media/wysiwyg/homepage/web_banner_3_1_1_1.jpg);
+    background-size: cover;
+}
+#page1:hover{
+    background-image: url(https://www.haldiram.com/media/wysiwyg/homepage/web_banner_2_1_1_1_1_.jpg);
+}
+#search{
+    margin-top: 3.5%;
+    height: 30%;
+    width: 14%;
+    border-style: solid;
+    border-color:  rgb(196, 51, 51);;
+    border-style:solid;
+    display: flex;
+    font-size: smaller;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#icon{
+    height: 90%;
+    width: 20%;
+    background-color: rgb(196, 51, 51);
+    border-style:solid ;
+    border-color: black;
+    margin-left: 0%;
+    background-image: url(<i class="fa-solid fa-magnifying-glass"></i>);
+    background-size:cover;
+   
+}
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(246, 217, 222);
+}
+#product{
+    height: 50%;
+    width: 100%;
+   margin-top: 10%;
+   display: flex;
+}
+.products{
+    height: 100%;
+    width: 30%;
+ border-style: groove;
+ margin-left: 2%;
+ margin-right: 2%;
+
+}
+h1{
+    height: 8%;
+    width: 40%;
+    background-color:rgb(243, 47, 47);
+    margin-top: 0%;
+    font-family:'Lucida Sans';
+}
+#price{
+    height: 15%;
+    width: 98%;
+    border-style: ridge;
+    text-align: center;
+    font-size:larger;
+}
+#last{
+    margin-top: 5%;
+    height: 8%;
+    width: 100%;
+}
