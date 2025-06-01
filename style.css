@@ -1,117 +1,238 @@
-*{
-    height: 100%;
+ *{
+     height: 100%;
     width: 100%;
     font-family:'Times New Roman', Times, serif;
     margin: 0%;
 }
+body{
+    height: 100%;
+    width: 100%;
+}
 #main{
     height: 100%;
     width: 100%;
-   
 }
-#strip{
-    height: 1.3%;
+header{
+    height: 10%;
     width: 100%;
-    background-color:rgb(233, 152, 94);
-}
-#navbar{
-    height: 20%;
-    width: 100%;
-    background-color: white;
-    display: flex;
-}
-#logo{
-    height: 100%;
-    width: 16%;
-    background-image: url(https://www.haldiram.com/Haldiram_Logo-9GN.png);
-    background-size: cover;
-}
-.text{
-    height:50%;
-    width: 10%;
+    background-color:rgb(176, 20, 20);
     text-align: center;
-    margin: 3%;
-    margin-left: 1%;
-    
-}
-#flow{
-    height: 6%;
-   background-color: bisque;
-}
-marquee{
-    height: 100%;
-    width: 100%;
-    background-color:rgb(212, 35, 35);
-   color: white;
-   font-size:large;
-   font-style:initial;
-}
-#page1{
-    height: 73%;
-    width: 100%;
-    background-image: url(https://www.haldiram.com/media/wysiwyg/homepage/web_banner_3_1_1_1.jpg);
-    background-size: cover;
-}
-#page1:hover{
-    background-image: url(https://www.haldiram.com/media/wysiwyg/homepage/web_banner_2_1_1_1_1_.jpg);
-}
-#search{
-    margin-top: 3.5%;
-    height: 30%;
-    width: 14%;
-    border-style: solid;
-    border-color:  rgb(196, 51, 51);;
-    border-style:solid;
+    justify-content: end;
     display: flex;
-    font-size: smaller;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-#icon{
+.head {
+    margin-left: 7%;
+    margin-top: .5%;
+    width: 10%;
+    height: 80%;
+    display: flex;  
+    margin-right: 1%;
+}
+.head a{
+    margin-top: 15px;
+    text-decoration: none;
+    color: aliceblue;
+}
+.head:hover{
+   background-color: rgb(213, 108, 108);
+}
+#page{
     height: 90%;
-    width: 20%;
-    background-color: rgb(196, 51, 51);
-    border-style:solid ;
-    border-color: black;
-    margin-left: 0%;
-    background-image: url(<i class="fa-solid fa-magnifying-glass"></i>);
-    background-size:cover;
-   
-}
-#page2{
-    height: 100%;
     width: 100%;
-    background-color: rgb(246, 217, 222);
+    display: flex;   
+   background-color: rgb(255, 228, 196);
+
 }
-#product{
+#img{
     height: 50%;
-    width: 100%;
-   margin-top: 10%;
-   display: flex;
-}
-.products{
-    height: 100%;
-    width: 30%;
- border-style: groove;
- margin-left: 2%;
- margin-right: 2%;
+    width: 50%;
+    margin: 8%;
 
 }
 h1{
-    height: 8%;
-    width: 40%;
-    background-color:rgb(243, 47, 47);
-    margin-top: 0%;
-    font-family:'Lucida Sans';
+    font-style: inherit;
+    font-family: sans-serif;
+    margin: 10%;
+    height: 10%;
+    width: 50%;
+    color: rgb(149, 18, 18);
 }
-#price{
+#para{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    height: 30%;
+    width: 100%;
+    font: optional;
+    margin-left: 2%;
+    color: rgb(149, 18, 18);
+}
+
+button{
+    margin-left: 10%;
+    height: 5%;
+    width: 10%;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    background-color:rgb(176, 20, 20);
+}
+button:hover{
+    background-color:rgb(231, 35, 35);
+}
+button a{
+    text-decoration: none;
+    color: rgb(255, 228, 196) ;
+}
+#main1{
+    margin: 0%;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 228, 196);
+    display: flex;
+    
+}
+#items{
+    background-color:rgb(171, 30, 30);
+    margin-left: 5%;
+    height: 90%;
+    width: 90%;
+    display: flex;
+}
+.names{
+    display: flex;
+    margin: 2%;
+    height: 90%;
+    width: 50%;
+    color: rgb(255, 228, 196);
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.price{
+    margin: 1%;
+    height: 90%;
+    width: 50%;
+    color: rgb(255, 228, 196);
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+li{
+    margin: 3%;
     height: 15%;
-    width: 98%;
-    border-style: ridge;
-    text-align: center;
-    font-size:larger;
 }
-#last{
-    margin-top: 5%;
-    height: 8%;
+.price ul li{
+    margin: 10%;
+    margin-top: 2%;
+}
+#imges{
+    height: 90%;
+    width: 90%;
+    align-items: center;
+}
+.img{
+    object-fit: cover;
+    margin: 2%;
+    height:50% ;
+    width:60% ;
+}
+#img2{
+    height: 90%;
+    display: flex;
+}
+.headr{
+    display: flex;
+    height: 10%;
     width: 100%;
 }
+.head a{
+    text-align: center;
+   margin-top: 10%;
+}
+#page2{
+    height:90%;
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    background-color: rgb(255, 228, 196);
+    
+}
+#box{
+    height: 40%;
+    width: 95%;
+    display: flex;
+    margin-left: 2%;
+}
+#box1{
+    height: 40%;
+    width: 95%;
+    display: flex;
+    margin-left: 2%;
+}
+#strip{
+    height: 5%;
+    width: 95%;
+    display: flex;
+
+}
+.boxx{
+    height: 90%;
+    width: 30%;
+    margin: 1%;
+   
+}
+.boxx:hover{
+    transition: all 2s;
+    scale: 1.2;
+}
+.btns{
+    margin-left: 20%;
+    height: 100%;
+    width: 10%;
+}
+.boxx img{
+     object-fit: cover;
+}
+#page3{
+    height: 90%;
+    width: 100%;
+   background-color: rgb(255, 228, 196);
+}
+h2{
+    height: 5%;
+    width: 20%;
+    color:rgb(171, 30, 30) ;
+   padding: 60px;
+   margin-left: 40%;
+}
+#info{
+    height: 40%;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10%;
+    display: flex;
+
+}
+.box1{
+    height: 90%;
+    width: 30%;
+    margin: 1%;
+    background-color:rgb(193, 22, 22) ;
+    color: rgb(255, 228, 196);
+    box-shadow: 0px 20px 20px rgb(193, 22, 22);
+
+}
+h3{
+    height: 20%;
+   width: 60%;
+   margin-left: 40%;
+}
+p{
+    font-size: larger;
+    height: 80%;
+    text-align: center;
+}
+
+
+
+
